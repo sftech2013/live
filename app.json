@@ -2,7 +2,7 @@
     "name": "Live",
     "description": "Gestion et broadcast de vos SMS et messages Twitter sur écrans multiples",
     "repository": "https://github.com/sftech2013/live",
-    "logo": "http://duglante.com/wp-content/uploads/2016/04/logo-binv_150.png",
+    "logo": "/app/static/img/logo.png",
     "keywords": ["python", "twitter", "SMS"],
     "success_url": "/user/welcome",
     "env": {
