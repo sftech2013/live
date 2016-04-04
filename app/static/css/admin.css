@@ -48,7 +48,7 @@ header .navbar-header .navbar-brand {
 }
 
 #Nav .btn-blacky.badge.active {
-    color: #eea236;
+    color: #43C7F4;
     background-color: #121212;
 }
 
@@ -58,7 +58,7 @@ header .navbar-header .navbar-brand {
 /*           Home                   */
 
 .waiting-section .intro h2 {
-    color: #eea236;
+    color: #43C7F4;
     margin-bottom: 20px;
 }
 
