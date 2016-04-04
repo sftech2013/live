@@ -13,7 +13,7 @@ define(['backbone', 'marionette','underscore','socketio'],
             // Dumbers
             ['dumber_added', 'dumber:added'],
             ['dumber_removed', 'dumber:removed'],
-            // Walls
+            // live
             ['ping', 'remote:ping'],
             ['gotourl', 'remote:gotourl'],
             // Themes
