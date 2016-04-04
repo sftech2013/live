@@ -101,7 +101,7 @@ define(['jquery', 'backbone', 'marionette', 'underscore', 'socketio', 'Modal/Reg
             // Dumbers
             ['dumber_added', 'dumber:added'],
             ['dumber_removed', 'dumber:removed'],
-            // Walls
+            // live
             ['ping', 'remote:ping'],
             ['gotourl', 'remote:gotourl'],
             // Themes
