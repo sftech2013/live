@@ -4751,7 +4751,7 @@ a.label:focus {
   background-color: #5e5e5e;
 }
 .label-primary {
-  background-color: #eea236;
+  background-color: #43c7f4;
 }
 .label-primary[href]:hover,
 .label-primary[href]:focus {
@@ -4819,7 +4819,7 @@ a.badge:focus {
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #eea236;
+  color: #43c7f4;
   background-color: #ffffff;
 }
 .list-group-item > .badge {
