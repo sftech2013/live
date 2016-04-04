@@ -2968,7 +2968,7 @@ fieldset[disabled] .btn-info.active {
 .btn-warning {
   color: #ffffff;
   background-color: #f0ad4e;
-  border-color: #eea236;
+  border-color: #43C7F4;
 }
 .btn-warning:hover,
 .btn-warning:focus,
@@ -3004,7 +3004,7 @@ fieldset[disabled] .btn-warning:active,
 .btn-warning[disabled].active,
 fieldset[disabled] .btn-warning.active {
   background-color: #f0ad4e;
-  border-color: #eea236;
+  border-color: #43C7F4;
 }
 .btn-warning .badge {
   color: #f0ad4e;
