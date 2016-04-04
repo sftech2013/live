@@ -40,7 +40,7 @@ class ShoutNamespace(BaseNamespace, RoomsMixin, BroadcastMixin):
         super(ShoutNamespace, self).disconnect(*args, **kwargs)
 
     def on_join(self, room):
-        # @INFO: Pour mémoire, il n'y a pas de shouts sur le join. Seul les live
+        # @INFO: Pour mémoire, il n'y a pas de shouts sur le join. Seul les  live
         # public sont propagés via socketio (join_only)
         self.join(room)
         if room not in self.rooms:
