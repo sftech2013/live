@@ -3070,7 +3070,7 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #eea236;
+  background-color: #43C7F4;
   border-color: #ec971e;
 }
 .btn-primary:hover,
@@ -3106,11 +3106,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #eea236;
+  background-color: #43C7F4;
   border-color: #ec971e;
 }
 .btn-primary .badge {
-  color: #eea236;
+  color: #43C7F4;
   background-color: #ffffff;
 }
 .btn-success {
