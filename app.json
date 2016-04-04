@@ -1,7 +1,7 @@
 {
     "name": "Bullit",
     "description": "Gestion et broadcast de vos SMS et messages Twitter sur écrans multiples",
-    "repository": "https://github.com/bullit-io/bullit",
+    "repository": "https://github.com/sftech2013/live",
     "logo": "http://img.bullit.io/logos/logo-binv_150.png",
     "keywords": ["python", "twitter", "SMS"],
     "success_url": "/user/welcome",
