@@ -1087,7 +1087,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #eea236;
+  color: #43C7F4;
   text-decoration: none;
 }
 a:hover,
@@ -1328,7 +1328,7 @@ mark,
   color: #777777;
 }
 .text-primary {
-  color: #eea236;
+  color: #43C7F4;
 }
 a.text-primary:hover {
   color: #de8a13;
