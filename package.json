@@ -1,7 +1,7 @@
 {
-  "name": "Bullit",
+  "name": "Live",
   "version": "0.0.3",
-  "description": "Gestion de murs contributifs (Streaming API Twitter, SMS) - Social Media Wall, SMS wall, Tweet Wall",
+  "description": "Gestion de live contributifs (Streaming API Twitter, SMS) - Media live, SMS live, Tweet live",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "runtest"
@@ -14,8 +14,8 @@
     "Twitter",
     "stream"
   ],
-  "author": "Dweez",
-  "license": "CC BY-SA",
+  "author": "sft",
+  "license": "CC BY-SFT",
   "dependencies": {
     "less": "^2.2.0"
   },
