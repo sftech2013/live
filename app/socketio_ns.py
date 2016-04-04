@@ -64,7 +64,7 @@ class ShoutNamespace(BaseNamespace, RoomsMixin, BroadcastMixin):
 
 
     def _publish_leave(self, room):
-        # Si room wall public on prévient admin_devices
+        # Si room live public on prévient admin_devices
         reg_play = re.match(r'(play_)([a-f0-9]{24})\b', room)
         if reg_play:
             race = races.find_one({'_id': ObjectId(reg_play.group(2)) })
