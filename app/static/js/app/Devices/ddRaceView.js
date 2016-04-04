@@ -8,7 +8,7 @@ define([ 'App', 'marionette', 'underscore', 'text!Devices/dd-race-view.html'],
 
             initialize: function(options){
                 // @memo le device_id est passé en options.
-                // on construit l'url du wall, complète...
+                // on construit l'url du live, complète...
                 var serv = options.server_info;
                 var domain = (serv.host.length && serv.port) ? serv.host+":"+serv.port : serv.host;
                 var wallurl = "http://"+domain+"/wall/"+this.model.get('_id');
