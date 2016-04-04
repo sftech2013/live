@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 '''
-Bullit: lanceur
+Live: lanceur
 '''
 
 from app import app
@@ -13,7 +13,7 @@ import logging
 
 if __name__ == "__main__":
     from argparse import ArgumentParser
-    parser = ArgumentParser(description='Lanceur pour Bullit')
+    parser = ArgumentParser(description='Lanceur pour Live')
 
     parser.add_argument('-l', '--log-level', default='ERROR',
                         help='Log level : CRITICAL, ERROR, WARNING, INFO, DEBUG')
@@ -28,7 +28,7 @@ if __name__ == "__main__":
     # @FIXME: toujours besoin ???
     app.server_args = {"host": args.bind, "port": args.port, "log": args.log_level}
 
-    print "Bullit is running... http://{}:{}".format(args.bind, args.port)
+    print "Live is running... http://{}:{}".format(args.bind, args.port)
     server = SocketIOServer((args.bind, args.port), app, resource="socket.io")
     server.serve_forever()
 
