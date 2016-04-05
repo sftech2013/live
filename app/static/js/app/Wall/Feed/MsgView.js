@@ -1,4 +1,4 @@
-define( [ 'live', 'marionette', 'underscore', 'moment', 'models/Item', 'text!Wall/Feed/msg.html'],
+define( [ 'live', 'marionette', 'underscore', 'moment', 'models/Item', 'text!live/Feed/msg.html'],
     function( App, Marionette, _, moment, Item, itemTemplate) {
 
         return Marionette.ItemView.extend( {
@@ -19,7 +19,7 @@ define( [ 'live', 'marionette', 'underscore', 'moment', 'models/Item', 'text!Wal
                 this.model.set('ctime_str', moment(this.model.get('ctime')).format('HH:mm:ss'));
 
                 // l'API ne retourne pas les numéros de téléphone des SMS si le client
-                // n'est pas authentifié. On force pour le cas d'ouverture d'un wall public 
+                // n'est pas authentifié. On force pour le cas d'ouverture d'un live public 
                 // depuis une machine authentifiée
                 if(this.model.get('provider') == "SMS")
                     this.model.set('author', 'SMS');
