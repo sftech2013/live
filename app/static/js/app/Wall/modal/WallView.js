@@ -1,5 +1,5 @@
 
-define(['Wall', 'marionette', 'underscore', 'moment', 'text!Wall/modal/item-wall-modal.html'],
+define(['live', 'marionette', 'underscore', 'moment', 'text!Wall/modal/item-wall-modal.html'],
 
   function(App, Marionette, _, moment, modalTemplate) {
 
