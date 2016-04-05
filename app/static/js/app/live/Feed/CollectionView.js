@@ -1,5 +1,5 @@
 
-define(['live', 'marionette', 'underscore', "models/Item", "models/Race", "live/Feed/MsgView", "live/modal/WallView", 
+define(['live', 'marionette', 'underscore', "models/Item", "models/Race", "live/Feed/MsgView", "live/modal/liveView", 
     "text!live/Feed/empty.html"],
 
   function(App, Marionette, _, Item, Race, MsgView, ModalView, emptyTemplate) {
