@@ -60,7 +60,7 @@ class ShoutNamespace(BaseNamespace, RoomsMixin, BroadcastMixin):
         if reg_play:
             race = races.find_one({'_id': ObjectId(reg_play.group(2)) })
             ret_obj = {'id': id(self), 'room': room, 'race_id': str(race['_id']), 'race_title': race['title']}
-            self.broadcast_room(['admin_devices','dash'], 'join_a_wall', ret_obj )
+            self.broadcast_room(['admin_devices','dash'], 'join_a_live', ret_obj )
 
 
     def _publish_leave(self, room):
@@ -69,7 +69,7 @@ class ShoutNamespace(BaseNamespace, RoomsMixin, BroadcastMixin):
         if reg_play:
             race = races.find_one({'_id': ObjectId(reg_play.group(2)) })
             ret_obj = {'id': id(self), 'room': room, 'race_id': str(race['_id']), 'race_title': race['title']}
-            self.broadcast_room(['admin_devices','dash'], 'leave_a_wall', ret_obj )
+            self.broadcast_room(['admin_devices','dash'], 'leave_a_live', ret_obj )
         elif room == 'waiting':
             ret_obj = {'id': id(self), 'room': room}
             self.broadcast_room(['admin_devices','dash'], 'device_waiting_dec', ret_obj )
