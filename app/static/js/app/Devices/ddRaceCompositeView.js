@@ -4,7 +4,7 @@ define(['App', 'marionette', 'underscore', "collections/RaceCollection", "Device
   function(App, Marionette, _, RaceCollection, ddRaceView, tplContainer) {
     
     var NoItemsView = Marionette.ItemView.extend({
-        template: _.template("Pas de live")
+        template: _.template("Pas de wall")
     });
 
     return Marionette.CompositeView.extend({
