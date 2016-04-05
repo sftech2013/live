@@ -1,4 +1,4 @@
-define(['Wall', 'marionette', 'underscore'],
+define(['live', 'marionette', 'underscore'],
     function( App, Marionette, _ ) {
 
         return Marionette.ItemView.extend( {
