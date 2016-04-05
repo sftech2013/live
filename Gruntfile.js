@@ -23,7 +23,7 @@ module.exports = function(grunt) {
                     // Compil des fichiers less 
                     "./app/static/css/bootstrap.admin.css":"./app/static/assets/less/admin.less",
                     // ne doit plus servir
-                    "./app/static/css/bootstrap.wall.css":"./app/static/assets/less/wall.less",
+                    "./app/static/css/bootstrap.live.css":"./app/static/assets/less/live.less",
                 }
             },
 
