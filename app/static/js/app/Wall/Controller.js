@@ -1,4 +1,4 @@
-define(['Wall', 'backbone', 'marionette', 'Wall/LayoutWall', 'Wall/Ping/PingView'],
+define(['live', 'backbone', 'marionette', 'live/Layoutlive', 'live/Ping/PingView'],
 	function (App, Backbone, Marionette, LayoutWall, PingView) {
 
 		return Marionette.Controller.extend({
