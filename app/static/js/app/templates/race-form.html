@@ -1,6 +1,6 @@
 
 <div class="page-header">
-  <h2>Live <small>Edition des informations et de la configuration d'un live</small></h2>
+  <h2>Wall <small>Edition des informations et de la configuration d'un wall</small></h2>
 </div>
 
 <h3 class="sub-title">Informations générales</h3>
@@ -28,7 +28,7 @@
                 <label for="formPhone" class="col-sm-2 control-label">Tel. SMS</label>
                 <div class="col-sm-10">
                     <input type="text" name="phone_number" class="form-control" id="formPhone" placeholder="<%= default_race.phone_number %>" tabindex="3" value="<%= phone_number %>">
-                    <span class="help-block">N° de téléphone à utiliser pour envoyer des SMS sur le live</span>
+                    <span class="help-block">N° de téléphone à utiliser pour envoyer des SMS sur le Wall</span>
                 </div>
             </div>
 
@@ -36,7 +36,7 @@
                 <label for="formDesc" class="col-sm-2 control-label">Description</label>
                 <div class="col-sm-10">
                     <input type="text" name="desc" class="form-control" id="formDesc" placeholder="<%= default_race.desc %>" tabindex="4" value="<%= desc %>">
-                    <span class="help-block">Message d'information de votre live public</span>
+                    <span class="help-block">Message d'information de votre Wall public</span>
                 </div>
             </div>
 
@@ -53,7 +53,7 @@
             <div class="pull-right">
 
                 <% if(!is_new){ %>
-                    <a href="/live/<%= _id %>" target="_blank" class="link-live btn btn-warning"><span class="glyphicon glyphicon-new-window"></span> Ouvrir le live public</a>
+                    <a href="/wall/<%= _id %>" target="_blank" class="link-wall btn btn-warning"><span class="glyphicon glyphicon-new-window"></span> Ouvrir le wall public</a>
                 <% } %>
             </div>
         </form>
@@ -65,11 +65,11 @@
 
 <div class="section">
     <div class="section-content">
-        <p>Les messages présents sur plusieurs live simultanément ne seront supprimés que pour ce live</p>
+        <p>Les messages présents sur plusieurs Walls simultanément ne seront supprimés que pour ce Wall</p>
         <a href="javascript://void(0);" class="remove-messages btn btn-default"><span class="glyphicon glyphicon-trash"></span> Supprimer les messages</a>
         <hr/>
-        <p>Suppression du live et de tous les messages associés. Comme précédement, les messages présents sur plusieurs live simultanément ne seront supprimés que pour ce live</p>
-        <a href="javascript://void(0);" class="delete-live btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Supprimer le live et tous les messages associés</a>
+        <p>Suppression du Wall et de tous les messages associés. Comme précédement, les messages présents sur plusieurs Walls simultanément ne seront supprimés que pour ce Wall</p>
+        <a href="javascript://void(0);" class="delete-wall btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Supprimer le Wall et tous les messages associés</a>
     </div>
 </div>
 <% } %>

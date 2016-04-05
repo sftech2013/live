@@ -108,7 +108,7 @@ define(['App', 'backbone', 'marionette', 'underscore', 'Themes/Model', 'Themes/l
 		    				switch(jsonresp.code){
 		    					case 'norace':
 		    						var label = "Erreur de compilation!";
-		    						var msg = "Au moins un live doit utiliser le thème";
+		    						var msg = "Au moins un wall doit utiliser le thème";
 		    						break;
 		    					case 'noright':
 		    						var label = "Erreur de permission!";
