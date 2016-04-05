@@ -2,7 +2,7 @@
 /*@import url("nanoscroller.css");*/
 
 /*.nano > .nano-pane > .nano-slider {
-    background-color: #43C7F4;
+    background-color: #eea236;
 }*/
 
 
@@ -28,7 +28,7 @@ header.navbar-inverse > div {
 }
 
 header .navbar-header .navbar-brand {
-    color: #43C7F4;
+    color: #eea236;
     font-size: 26px;
 }
 
@@ -48,7 +48,7 @@ header .navbar-header .navbar-brand {
 }
 
 #Nav .btn-blacky.badge.active {
-    color: #43C7F4;
+    color: #eea236;
     background-color: #121212;
 }
 
@@ -58,7 +58,7 @@ header .navbar-header .navbar-brand {
 /*           Home                   */
 
 .waiting-section .intro h2 {
-    color: #43C7F4;
+    color: #eea236;
     margin-bottom: 20px;
 }
 
@@ -273,7 +273,7 @@ header .navbar-header .navbar-brand {
 
 
 .Dash > .row > #col-menu .col-menu-header a {
-    color: #43C7F4;
+    color: #eea236;
 }
 */
 
@@ -571,7 +571,7 @@ fusionner ?
 
 
 /* AdminLayout de la Modale*/
-/* faux ... #preselect est dans le layout des bulles des live aussi ... */
+/* faux ... #preselect est dans le layout des bulles des walls aussi ... */
 
 #preselect {
     max-width: 100%;
@@ -600,11 +600,11 @@ fusionner ?
 }
 
 .modal-content a:hover{
-    color: #43C7F4;
+    color: #eea236;
     text-decoration: underline;
 }
 
-/* view modale des live publics */
+/* view modale des walls publics */
 
 
 /*.modal-content .jumbotron {
