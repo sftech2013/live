@@ -26,7 +26,7 @@ define([ 'App', 'backbone', 'marionette', 'underscore', 'models/Race', 'collecti
                 backDash: ".backDash",
                 submitFormRace: "#submitFormRace",
                 removeMessages: '.remove-messages',
-                deleteWall: '.delete-wall',
+                deleteWall: '.delete-live',
             },
 
             modelEvents: {
@@ -36,7 +36,7 @@ define([ 'App', 'backbone', 'marionette', 'underscore', 'models/Race', 'collecti
             events: {
                 "submit form": "onSubmitForm",
                 "click @ui.removeMessages": "removeMessages",
-                "click @ui.deleteWall": "deleteWall",
+                "click @ui.deletelive": "deletelive",
             },
             themeSelected: function(){
                 console.log("Nouveau Thème sélectionné");
