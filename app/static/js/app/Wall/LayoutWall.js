@@ -1,8 +1,8 @@
-define(['Wall', 'marionette', 'models/Race', 'collections/ItemCollection', 'Wall/Feed/CollectionView', 'Wall/Info/InfoView'],
+define(['live', 'marionette', 'models/Race', 'collections/ItemCollection', 'live/Feed/CollectionView', 'live/Info/InfoView'],
     function(App, Marionette, Race, ItemCollection, FeedCollectionView, InfoView) {
         return Marionette.LayoutView.extend( {
-            template: $('#layoutWall'),
-            el: "#layoutWall",
+            template: $('#layoutlive'),
+            el: "#layoutlive",
             
             regions: {
                 Infos: "#Infos",
