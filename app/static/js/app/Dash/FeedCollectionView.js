@@ -31,7 +31,7 @@ define(['App', 'marionette', 'underscore', "models/Race", "Dash/Feed/Layout", "D
 
             // this.msg ne sert que si il n'y a pas de réponses (emptyViewOptions)
             // this.msg = "Vous n'avez pas de wall pour ces critères: " + options.optQuery.filter + " = " + options.optQuery.filter_values;
-            this.msg = "Vous n'avez pas encore de wall à afficher.";
+            this.msg = "Vous n'avez pas encore de live à afficher.";
 
             this.listenTo(App.vent, "dash:race:add", this._addRaceCol);
             this.listenTo(App.vent, "dash:race:remove", this._removeRaceCol);
