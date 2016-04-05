@@ -26,7 +26,7 @@ define([ 'App', 'backbone', 'marionette', 'underscore', 'models/Race', 'collecti
                 backDash: ".backDash",
                 submitFormRace: "#submitFormRace",
                 removeMessages: '.remove-messages',
-                deleteWall: '.delete-live',
+                deletelive: '.delete-live',
             },
 
             modelEvents: {
