@@ -48,7 +48,7 @@ define('options', {
 	}
 });
 
-require(['Wall', 'options', 'Wall/Router', 'Wall/Controller', 'jquery', 'bootstrap'], 
+require(['live', 'options', 'live/Router', 'live/Controller', 'jquery', 'bootstrap'], 
 	function (App, options, Router, Controller) {
 
 		App.options = options;
