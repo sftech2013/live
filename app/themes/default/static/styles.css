@@ -1170,7 +1170,7 @@ a.text-danger:hover {
 }
 .bg-primary {
   color: #fff;
-  background-color: #eea236;
+  background-color: #43c7f4;
 }
 a.bg-primary:hover {
   background-color: #de8a13;
@@ -2832,7 +2832,7 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #eea236;
+  background-color: #43c7f4;
   border-color: #ec971e;
 }
 .btn-primary:hover,
