@@ -21,17 +21,17 @@ define(['live', 'backbone', 'marionette', 'live/Layoutlive', 'live/Ping/PingView
 			
 			live: function (race_id) {
 				console.log("du coup on a: ", race_id);
-				var layout = new LayoutWall({race_id: this.current_race});
+				var layout = new Layoutlive({race_id: this.current_race});
 				App.rootView.main.show(layout);
 			},
 
 			_refresh: function(){
 				/*
 				WARN BUG Firefox
-				Si l'onglet d'un wall n'a pas le focus lors de la relecture de la page (qu'il soit ou non dans la fenêtre principale)
+				Si l'onglet d'un live n'a pas le focus lors de la relecture de la page (qu'il soit ou non dans la fenêtre principale)
 				le refresh plantera invariablement sur une tentative de fetch de la race + collection "à vide" (sans id pour la race)
-				alors que tout se passera sans douleur si l'onglet du wall à le focus (qu'il soit visible en gros)
-				L'effet est donc le même dans une 2ème fenêtre si on s'amuse à ouvrir un autre onglet en // du wall
+				alors que tout se passera sans douleur si l'onglet du live à le focus (qu'il soit visible en gros)
+				L'effet est donc le même dans une 2ème fenêtre si on s'amuse à ouvrir un autre onglet en // du live
 				*/
 				App.sck.socket.emit('leave', 'play_'+this.current_race);
 				window.location.replace( window.location.href );
