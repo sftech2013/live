@@ -4,7 +4,7 @@ define(['marionette'],
 
 			appRoutes: {
 				'': 'index',
-				'wall/:id/': 'wall'
+				'live/:id/': 'live'
 			},
 
 		});
