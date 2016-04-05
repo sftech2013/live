@@ -82,7 +82,7 @@ define([ 'App', 'backbone', 'marionette', 'underscore', 'models/Race', 'collecti
                 }
             },
 
-            deleteWall: function(){
+            deletelive: function(){
                 if(confirm("Voulez-vous vraiment supprimer ce live et tous ses messages ?\n Attention cette action est irréversible")){
                     this.model.destroy({
                         success: function(model, response){
