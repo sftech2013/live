@@ -58,7 +58,7 @@ module.exports = function(grunt) {
             minify: {
                 files: {
                     'app/static/css/bootstrap.admin.min.css': ['app/static/css/bootstrap.admin.css'],
-                    'app/static/css/bootstrap.wall.min.css': ['app/static/css/bootstrap.wall.css'],
+                    'app/static/css/bootstrap.live.min.css': ['app/static/css/bootstrap.live.css'],
                 }
             },
 
