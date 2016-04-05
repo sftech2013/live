@@ -1,5 +1,5 @@
 define(['live', 'backbone', 'marionette', 'live/Layoutlive', 'live/Ping/PingView'],
-	function (App, Backbone, Marionette, LayoutWall, PingView) {
+	function (App, Backbone, Marionette, Layoutlive, PingView) {
 
 		return Marionette.Controller.extend({
 
@@ -19,7 +19,7 @@ define(['live', 'backbone', 'marionette', 'live/Layoutlive', 'live/Ping/PingView
 				console.log("pas de route côté serveur");
 			},
 			
-			wall: function (race_id) {
+			live: function (race_id) {
 				console.log("du coup on a: ", race_id);
 				var layout = new LayoutWall({race_id: this.current_race});
 				App.rootView.main.show(layout);
