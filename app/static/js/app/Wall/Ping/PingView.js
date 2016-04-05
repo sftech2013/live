@@ -1,5 +1,5 @@
 
-define(['marionette', 'underscore', 'text!Wall/Ping/message.html'],
+define(['marionette', 'underscore', 'text!live/Ping/message.html'],
 	function(Marionette, _, pingTpl) {
 		return Marionette.ItemView.extend({
 
