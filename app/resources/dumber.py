@@ -43,7 +43,7 @@ resource_fields_sms = {
 	'provider_user_id': fields.String,
 	# 'author': FakePhone(attribute='provider_user_id'),
 	'author': fields.String(attribute='provider_user_id'),
-	# le path, en config ? theme du live ?
+	# le path, en config ? theme du wall ?
 	'avatar': fields.String(default='/static/img/avatar_default_sms.png'),
 }
 

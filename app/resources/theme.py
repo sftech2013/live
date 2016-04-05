@@ -74,7 +74,7 @@ def make_preview(url_param, theme, width, height):
 	host = app.config['SERVER_CONFIG']['host']
 	port = app.config['SERVER_CONFIG']['port']
 	hostport = "%s:%s" % (host, port) if port else host
-	url = "http://%s/live%s" % (hostport, url_param)
+	url = "http://%s/wall%s" % (hostport, url_param)
 	# Marche dans le contexte de l'install de dev avec Grunt
 	# local("grunt snap --url=%s --theme=%s --width=%s --height=%s" % (url, ident, width, height))
 	# Là aussi on évite Grunt, on utilise PhantomJs en direct ...
@@ -167,7 +167,7 @@ class Themer(Resource):
 				arace = races.find_one()
 				if arace:
 					# preview avec passage du thème en param (pas de race avec le thème voulu)
-					# on ne propage pas l'event l'event sur les live potentiellement ouvert
+					# on ne propage pas l'event l'event sur les wall potentiellement ouvert
 					race_param = "/%s?theme=%s" % (arace['_id'], theme.identifier)
 					make_preview(race_param, theme, preview['width'], preview['height'])
 				else:
