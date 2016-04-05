@@ -1,4 +1,4 @@
-define(['jquery', 'backbone', 'marionette', 'underscore', 'options', 'Wall/sio', 'Modal/Region'],
+define(['jquery', 'backbone', 'marionette', 'underscore', 'options', 'live/sio', 'Modal/Region'],
 	function ($, Backbone, Marionette, _, options, sio, ModalRegion) {
 
 		if(!window.debugging){
