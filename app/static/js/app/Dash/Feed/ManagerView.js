@@ -203,7 +203,7 @@ define([ 'App', 'marionette', 'underscore', 'models/Race', 'text!Dash/Feed/manag
             },
 
             removeMessages: function(){
-                if(confirm("Voulez-vous vraiment supprimer tous les messages de ce Wall ?\n Attention cette action est irréversible")){
+                if(confirm("Voulez-vous vraiment supprimer tous les messages de ce live ?\n Attention cette action est irréversible")){
                     App.vent.trigger("remove:messages:"+this.model.get('_id'))
                 }
             }
