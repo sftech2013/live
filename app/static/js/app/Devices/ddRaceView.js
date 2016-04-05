@@ -11,12 +11,12 @@ define([ 'App', 'marionette', 'underscore', 'text!Devices/dd-race-view.html'],
                 // on construit l'url du live, complète...
                 var serv = options.server_info;
                 var domain = (serv.host.length && serv.port) ? serv.host+":"+serv.port : serv.host;
-                var wallurl = "http://"+domain+"/wall/"+this.model.get('_id');
+                var wallurl = "http://"+domain+"/live/"+this.model.get('_id');
                 this.model.set('wallurl', wallurl);
             },
 
             events: {
-                "click": "wallSelected"
+                "click": "liveSelected"
             },
 
             onRender: function(){
