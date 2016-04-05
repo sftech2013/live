@@ -167,7 +167,7 @@ class Themer(Resource):
 				arace = races.find_one()
 				if arace:
 					# preview avec passage du thème en param (pas de race avec le thème voulu)
-					# on ne propage pas l'event l'event sur les wall potentiellement ouvert
+					# on ne propage pas l'event l'event sur les live potentiellement ouvert
 					race_param = "/%s?theme=%s" % (arace['_id'], theme.identifier)
 					make_preview(race_param, theme, preview['width'], preview['height'])
 				else:
