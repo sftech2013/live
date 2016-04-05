@@ -1359,7 +1359,7 @@ a.text-danger:hover {
 }
 .bg-primary {
   color: #fff;
-  background-color: #eea236;
+  background-color: #43c7f4;
 }
 a.bg-primary:hover {
   background-color: #de8a13;
@@ -2545,7 +2545,7 @@ output {
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 .form-control:focus {
-  border-color: #eea236;
+  border-color: #43c7f4;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(238, 162, 54, 0.6);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(238, 162, 54, 0.6);
