@@ -58,7 +58,7 @@ def get_devices():
                 for ws in ShoutNamespace.sockets.values() 
                 if "/shouts_waiting" in ws.session['rooms'] ]
     
-    # devices connectés sur un Wall public
+    # devices connectés sur un Live public
     for ws in ShoutNamespace.sockets.values():
         for room in ws.session['rooms']:
             reg_play = re.match(r'(/shouts_play_)([a-f0-9]{24})\b', room)
