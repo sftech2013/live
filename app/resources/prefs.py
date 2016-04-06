@@ -35,7 +35,7 @@ class ObjId(fields.Raw):
 
 resource_fields = {
 	'_id': ObjId(attribute='_id'),
-	'title': fields.String(default='Bullit'),
+	'title': fields.String(default='Live Message'),
 	'desc': fields.String,
 	'msg_pause': fields.String,
 	'retweet': fields.Boolean(default=True),
