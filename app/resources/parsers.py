@@ -72,7 +72,7 @@ Themes
 """
 
 parser_theme = reqparse.RequestParser()
-parser_theme.add_argument('application', type=str, default="Bullit")
+parser_theme.add_argument('application', type=str, default="Live Message")
 parser_theme.add_argument('name', type=uni, default="Nouveau")
 parser_theme.add_argument('identifier', type=str)
 parser_theme.add_argument('author', type=uni, default="Vous")
