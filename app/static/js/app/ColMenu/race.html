@@ -2,7 +2,7 @@
 <div class="media-body">
 	<div class="pull-right">
 		<div class="racer-tools btn-group btn-group-xs">
- 			<a class="btn btn-default btn-xs" href="/wall/<%= _id %>/" data-toggle="tooltip" data-placement="bottom" target="_blank" title="Ouvrir le Wall public">
+ 			<a class="btn btn-default btn-xs" href="/wall/<%= _id %>/" data-toggle="tooltip" data-placement="bottom" target="_blank" title="Ouvrir le live public">
 				<span class="glyphicon glyphicon-new-window"></span> 
 			</a>
 			<a class="btn btn-default btn-xs" href="#edit/<%= _id %>" data-toggle="tooltip" data-placement="bottom" title="Modifier">
@@ -12,12 +12,12 @@
 				<span class="glyphicon glyphicon-fullscreen"></span> 
 			</a> -->
 			<% if(is_dashed){ %>
-			<a class="btn-remove-dash btn btn-default btn-xs" href="javascript:void(0);" data-toggle="tooltip" data-placement="bottom" title="Retirer ce Wall du Dashboard">
+			<a class="btn-remove-dash btn btn-default btn-xs" href="javascript:void(0);" data-toggle="tooltip" data-placement="bottom" title="Retirer ce live du Dashboard">
 				<!-- <span class="glyphicon glyphicon-plus"></span>  -->
 				<span class="glyphicon glyphicon-minus"></span> 
 			</a>
 			<% } else { %>
-				<a class="btn-add-dash btn btn-default btn-xs" href="javascript:void(0);" data-toggle="tooltip" data-placement="bottom" title="Ajouter ce Wall au Dashboard">
+				<a class="btn-add-dash btn btn-default btn-xs" href="javascript:void(0);" data-toggle="tooltip" data-placement="bottom" title="Ajouter ce live au Dashboard">
 					<!-- <span class="glyphicon glyphicon-plus"></span>  -->
 					<span class="glyphicon glyphicon-plus"></span> 
 				</a>
