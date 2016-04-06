@@ -73,7 +73,7 @@ Themes
 
 DEFAULT_THEME = 'default'
 
-Themes(app, app_identifier="Bullit", theme_url_prefix='/themes')
+Themes(app, app_identifier="Live Message", theme_url_prefix='/themes')
 
 
 """
