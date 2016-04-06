@@ -14,7 +14,7 @@ SECRET_KEY = 'ChangeThisKey-8RWwQCa#XqWCZTi8X8rQf16k7uRs2xFG'
 PHONE_TOKEN = "_S0m3thiNg$D1FfiCuLt#T0R3memb3r_"
 
 # MongoDB
-MONGODB_URI="mongodb://localhost:27017/bullit"
+MONGODB_URI="mongodb://localhost:27017/live"
 # Exemple MongoHQ :
 # MONGODB_URI="mongodb://<login>:<password>@oceanic.mongohq.com:10080/bullit"
 
