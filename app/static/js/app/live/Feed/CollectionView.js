@@ -15,7 +15,7 @@ define(['live', 'marionette', 'underscore', "models/Item", "models/Race", "live/
         visible: 1,
         prefs: {text: true, media: false, size: ""},
         message: 'message de pause',
-        author: "@bullit_io",
+        author: "@live_message",
         preselec: {type: "", index: ""},
         avatar: "/static/img/logo-b_120.png",
         ctime: "",
